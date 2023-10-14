@@ -1,0 +1,37 @@
+body {
+  background-color: #553335;
+}
+
+.App-header {
+  color: white;
+  padding: 150px;
+  font-family: "Ubuntu", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("coding.jpg");
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 50px;
+}
