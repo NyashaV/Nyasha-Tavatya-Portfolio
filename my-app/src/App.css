@@ -1,5 +1,7 @@
-body {
+Body {
   background-color: #553335;
+  max-width: 3000px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -8,6 +10,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
     url("coding.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {

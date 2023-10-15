@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <footer className="mb-5 mt-5 text-center">
         <div className="contactBox">
           <h3>For further communication</h3>
-          <a className="btn btn-success linkButton mt-3 mb-4" href="/contact">
+          <a className="btn linkButton mt-3 mb-4" href="/contact">
             Contact me
           </a>
         </div>
@@ -17,7 +18,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fa-brands fa-linkedin"></i>{" "}
+            <i className="fa-brands fa-linkedin"></i>{" "}
           </a>
           <a href="https://github.com/NyashaV" target="_blank" rel="noreferrer">
             <i className="fa-brands fa-square-github"></i>
